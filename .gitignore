@@ -1,0 +1,15 @@
+# Mac
+.DS_Store
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data folders
+01_연구_배경/
+03_데이터_자료/
+04_데이터_전처리_자료/
+05_데이터_처리_자료/
