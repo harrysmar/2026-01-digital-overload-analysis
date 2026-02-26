@@ -12,7 +12,8 @@ The work focused on investigating the digital divide through empirical data and 
 The project primarily focused on building a robust data foundation by collecting and preprocessing multiple public datasets related to digital accessibility. 
 Regional population statistics were integrated through several Jupyter notebooks to create analysis-ready datasets for future research.
 
-## ⚠️ Current Status
+## ⚠️ Why the Project Was Paused
 
-Due to concerns regarding the clarity and feasibility of the research direction, the project was paused before moving into full modeling and interpretation. 
-This repository is preserved as an archive of the initial research phase and the data preparation workflow.
+The project was paused after the initial data preparation stage due to concerns about the clarity and long-term feasibility of the research direction.
+This repository is kept as an archive of the early research process and the data preprocessing workflow.
+
