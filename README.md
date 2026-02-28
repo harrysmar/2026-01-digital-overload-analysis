@@ -47,9 +47,7 @@ Using normalized values:
 Regions were grouped using percentile thresholds:
 
 * Top 30% (High) 
-
 * Middle 40% (Medium)  
-
 * Bottom 30% (Low)
 
 Both indices were visualized separately through choropleth maps to examine their geographic distribution across administrative regions.
