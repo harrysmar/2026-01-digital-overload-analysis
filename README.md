@@ -45,7 +45,12 @@ Using normalized values:
 **3. Index-Based Regional Classification**
 
 Regions were grouped using percentile thresholds:
-Top 30% (High)  Middle 40% (Medium)  Bottom 30% (Low)
+
+* Top 30% (High) 
+
+* Middle 40% (Medium)  
+
+* Bottom 30% (Low)
 
 Both indices were visualized separately through choropleth maps to examine their geographic distribution across administrative regions.
 
