@@ -13,12 +13,14 @@ This question and data choice marked the starting point of the project
 ## 🛠️ Core Workflow
 
 **1. Data Collection**
+
 The project began by collecting demographic and public administrative infrastructure data from two primary sources:
 
 * KOSIS (Korean Statistical Information Service) population statistics
 * Ministry of the Interior and Safety data on unmanned civil service kiosks
 
 **2. Index Construction & Preprocessing**
+
 The main objective of preprocessing was to construct two composite indicators: the **Digital Overload Index** and the **Unmanned Administrative Supply–Demand Imbalance Index**.
 
 Key variables were defined as:
@@ -37,12 +39,14 @@ Using normalized values:
   = normalized(administrative demand ratio) − normalized(unmanned administrative supply ratio)
 
 **3. Index-Based Regional Classification**
+
 Regions were grouped using percentile thresholds:
-Top 30% (High) · Middle 40% (Medium) · Bottom 30% (Low)
+Top 30% (High)  Middle 40% (Medium)  Bottom 30% (Low)
 
 Both indices were visualized separately through choropleth maps to examine their geographic distribution across administrative regions.
 
 **4. Quadrant Analysis Framework**
+
 The two indices were then designed to be combined into a quadrant framework to classify regions into four types:
 
 * **Compound Risk Regions** — high on both indices
@@ -59,6 +63,6 @@ However, during internal review, the team identified a critical assumption under
 A follow-up literature review was conducted to validate this premise, but the team concluded that there was insufficient quantitative evidence to support the assumption at the level required for further analysis. 
 As a result, the project was intentionally concluded after the preprocessing and index design stage, and the repository is preserved as an archive of the early research workflow.
 
-# 📝 Note
+## 📝 Note
 
 The original project proposal, notebook comments, and figures are written in Korean.
