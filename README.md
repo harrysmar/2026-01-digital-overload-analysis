@@ -4,11 +4,15 @@ This repository contains an early-stage data analysis project exploring regions 
 
 ## 📌 Project Overview
 
-The rapid digitalization of public services has raised concerns about the growing digital gap for older populations. 
-Rather than focusing only on digital exclusion, this project began with a different question: could there be regions experiencing digital overload instead? 
-To explore this idea, we chose to analyze the usage of public self-service kiosks, specifically unmanned government service machines, as a reliable and consistent indicator of regional digital demand. 
-Commercial kiosk data from private businesses was considered less stable, so public-sector kiosks were selected as the primary proxy for measuring regional digitalization. 
-This question and data choice marked the starting point of the project
+The rapid digitalization of public services has raised concerns about the growing digital gap for older populations.
+
+Rather than focusing only on digital exclusion, this project began with a different question: could there be regions experiencing digital overload instead?
+
+To explore this idea, we chose to analyze the usage of public self-service kiosks, specifically unmanned government service machines, as a reliable and consistent indicator of regional digital demand.
+
+Commercial kiosk data from private businesses was considered less stable, so public-sector kiosks were selected as the primary proxy for measuring regional digitalization.
+
+This question and data choice marked the starting point of the project.
 
 ## 🛠️ Core Workflow
 
@@ -58,10 +62,14 @@ This framework was intended to support the development of tailored policy and de
 
 ## 📦 Project Status
 
-The project progressed through the data collection and index construction stages. 
+The project progressed through the data collection and index construction stages.
+
 However, during internal review, the team identified a critical assumption underlying the project: that increased exposure to digital devices has a measurable negative impact on older populations.
-A follow-up literature review was conducted to validate this premise, but the team concluded that there was insufficient quantitative evidence to support the assumption at the level required for further analysis. 
+
+A follow-up literature review was conducted to validate this premise, but the team concluded that there was insufficient quantitative evidence to support the assumption at the level required for further analysis.
+
 As a result, the project was intentionally concluded after the preprocessing and index design stage, and the repository is preserved as an archive of the early research workflow.
+
 
 ## 📝 Note
 
