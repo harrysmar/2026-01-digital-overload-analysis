@@ -25,7 +25,9 @@ The project began by collecting demographic and public administrative infrastruc
 
 **2. Index Construction & Preprocessing**
 
-The main objective of preprocessing was to construct two composite indicators: the **Digital Overload Index** and the **Unmanned Administrative Supply–Demand Imbalance Index**.
+The main objective of preprocessing was to construct two composite indicators: 
+
+the **Digital Overload Index** and the **Unmanned Administrative Supply–Demand Imbalance Index**.
 
 Key variables were defined as:
 
