@@ -1,6 +1,6 @@
 # 🧓 2026-01 Regional Digital Overload Analysis
 
-This repository contains an early-stage data analysis project exploring regions affected by digital overload, classifying them into four types, and proposing potential solutions for each category.
+This repository contains an early-stage data analysis project exploring regions affected by digital overload and developing a framework for classifying them into four types.
 
 ## 📌 Project Overview
 
@@ -82,13 +82,13 @@ The original project proposal, notebook comments, and figures are written in Kor
 
 ## 📂 Repository Contents
 
-* `분석_노트북/` — preprocessing and index-construction notebooks
-* `2_연구_주제/` — project proposal and selected presentation figures
+* `notebooks/` — preprocessing and index-construction notebooks
+* `reports/` — main report and selected presentation figures
 
 ## 🔒 Data Availability
 
 Raw, processed, and reference materials are intentionally excluded from this public repository.
 The analysis used public demographic and public-service infrastructure data collected from KOSIS
 and the Ministry of the Interior and Safety. The notebooks are preserved to document the analytical
-workflow; reproducing the results requires obtaining the source data separately and placing it in the
-original local data directories.
+workflow; reproducing the results requires obtaining the source data separately and placing it under
+the corresponding local data directories: `data/01_raw/`, `data/02_preprocessed/`, and `data/03_processed/`.
