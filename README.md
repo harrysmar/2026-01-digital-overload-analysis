@@ -1,8 +1,13 @@
-# 🧓 2026-01 Regional Digital Overload Analysis
+# Regional Digital Overload Analysis
+
+> Portfolio Project 01 · 2026
+> An exploratory framework using demographic and public-service kiosk data.
+>
+> Status: Archived exploratory project
 
 This repository contains an early-stage data analysis project exploring regions affected by digital overload and developing a framework for classifying them into four types.
 
-## 📌 Project Overview
+## Project Overview
 
 The rapid digitalization of public services has raised concerns about the growing digital gap for older populations.
 
@@ -14,16 +19,20 @@ Commercial kiosk data from private businesses was considered less stable, so pub
 
 This question and data choice marked the starting point of the project.
 
-## 🛠️ Core Workflow
+## Research Question
 
-**1. Data Collection**
+Can regional demographic vulnerability and access to unmanned public-service kiosks be combined to classify regions into different types of digital overload?
+
+## Methodology
+
+### 1. Data Collection
 
 The project began by collecting demographic and public administrative infrastructure data from two primary sources:
 
 * KOSIS (Korean Statistical Information Service) population statistics
 * Ministry of the Interior and Safety data on unmanned civil service kiosks
 
-**2. Index Construction & Preprocessing**
+### 2. Index Construction and Preprocessing
 
 The main objective of preprocessing was to construct two composite indicators: 
 
@@ -44,7 +53,7 @@ Using normalized values:
 * **Administrative Supply–Demand Imbalance Index**
   = normalized(administrative demand ratio) − normalized(unmanned administrative supply ratio)
 
-**3. Index-Based Regional Classification**
+### 3. Regional Classification
 
 Regions were grouped using percentile thresholds:
 
@@ -54,7 +63,7 @@ Regions were grouped using percentile thresholds:
 
 Both indices were visualized separately through choropleth maps to examine their geographic distribution across administrative regions.
 
-**4. Quadrant Analysis Framework**
+### 4. Quadrant Analysis
 
 The two indices were then designed to be combined into a quadrant framework to classify regions into four types:
 
@@ -65,7 +74,7 @@ The two indices were then designed to be combined into a quadrant framework to c
 
 This framework was intended to support the development of tailored policy and design recommendations for each region type.
 
-## 📦 Project Status
+## Project Status and Limitations
 
 The project progressed through the data collection and index construction stages.
 
@@ -76,19 +85,19 @@ A follow-up literature review was conducted to validate this premise, but the te
 As a result, the project was intentionally concluded after the preprocessing and index design stage, and the repository is preserved as an archive of the early research workflow.
 
 
-## 📝 Note
-
-The original project proposal, notebook comments, and figures are written in Korean.
-
-## 📂 Repository Contents
+## Repository Contents
 
 * `notebooks/` — preprocessing and index-construction notebooks
 * `reports/` — main report and selected presentation figures
 
-## 🔒 Data Availability
+## Data Availability
 
 Raw, processed, and reference materials are intentionally excluded from this public repository.
 The analysis used public demographic and public-service infrastructure data collected from KOSIS
 and the Ministry of the Interior and Safety. The notebooks are preserved to document the analytical
 workflow; reproducing the results requires obtaining the source data separately and placing it under
 the corresponding local data directories: `data/01_raw/`, `data/02_preprocessed/`, and `data/03_processed/`.
+
+## Language
+
+The original project proposal, notebook comments, and figures are written in Korean.
