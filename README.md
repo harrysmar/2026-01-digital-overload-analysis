@@ -94,9 +94,11 @@ As a result, the project was intentionally concluded after the preprocessing and
 
 Raw, processed, and reference materials are intentionally excluded from this public repository.
 The analysis used public demographic and public-service infrastructure data collected from KOSIS
-and the Ministry of the Interior and Safety. The notebooks are preserved to document the analytical
-workflow; reproducing the results requires obtaining the source data separately and placing it under
-the corresponding local data directories: `data/01_raw/`, `data/02_preprocessed/`, and `data/03_processed/`.
+and the Ministry of the Interior and Safety.
+
+The notebooks are preserved to document the analytical workflow. Reproducing the results requires
+obtaining the source data separately and placing it under the corresponding local data directories:
+`data/01_raw/`, `data/02_preprocessed/`, and `data/03_processed/`.
 
 ## Language
 
