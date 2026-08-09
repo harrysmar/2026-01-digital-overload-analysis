@@ -3,7 +3,7 @@
 > Portfolio Project 01 · 2026
 > An exploratory framework using demographic and public-service kiosk data.
 >
-> Status: Archived exploratory project
+> Status: Discontinued exploratory project
 
 This repository contains an early-stage data analysis project exploring regions affected by digital overload and developing a framework for classifying them into four types.
 
