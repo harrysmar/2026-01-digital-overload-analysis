@@ -8,15 +8,8 @@ __pycache__/
 # Jupyter
 .ipynb_checkpoints/
 
-# Local and generated data
-*.csv
-*.hwp
-*.docx
-*.xlsx
-*.zip
-
-# Data folders
-1_연구_배경/
-3_데이터_자료/
-4_데이터_전처리_자료/
-5_데이터_처리_자료/
+# Project materials excluded from the public repository
+paper/
+data/01_raw/
+data/02_preprocessed/
+data/03_processed/
